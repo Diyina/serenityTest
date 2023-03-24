@@ -2,8 +2,8 @@ Feature: Users Details
 
   Scenario Outline: Get the details of Users
     Given I send a <id> request to endpoint
-    Then the API should return status <status code>
-    And Response should contains <name>
+    When the API should return status <status code>
+    Then response should contains <name>
     Examples:
       | id | status code | name    |
       | 1  | 200         | Terry  |
