@@ -1,0 +1,4 @@
+pages/DictionaryPage.class
+stepDefinition/WiktionaryStepDefinition.class
+stepDefinition/UsersStepDefinition.class
+RunSerenityTests.class
